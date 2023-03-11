@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <br>
+
+     <form>
+        <!-- LEGENDA PARA NOME -->
+        <label for="campo nome">Nome:</label>
+        <!-- CAMPO PARA NOME -->
+         <input id="campo nome" type="text" placeholder="Digite seu nome" required>
+
+        <br> <br>
+         <!-- LEGENDA PARA SOBRENOME -->
+        <label for="campo sobrenome">Sobrenome:</label>
+         <!-- CAMPO PARA SOBRENOME -->
+         <input id="campo sobrenome" type="text" placeholder="Digite seu sobrenome" required >
+
+        <br> <br>
+        <!-- LEGENDA PARA SENHA -->
+        <label for="campo senha">Senha:</label>
+        <!-- CAMPO PARA SENHA -->
+         <input id="campo senha" type="password" placeholder="Digite sua senha" required >
+      
+        <br> <br>
+         <!-- LEGENDA PARA E-MAIL -->
+        <label for="campo e-mail">E-mail:</label>
+        <!-- CAMPO  PARA E-MAIL -->
+         <input id="campo e-mail" type="email" placeholder="Digite seu E-mail" required >
+
+        <br> <br>
+          <!-- CAMPO DO BATÃO DE ENVIAR -->
+         <input type="submit" placeholder="Enviar">
+      </form>
+     <hr><br>
+
+     <form>
+        
+        <h2>Animais de estimação</h2>
+         
+        <!-- USOS DO INPUT TIPO RADIO -->
+        <input type="radio" name="animal" value="cachorro" id="dog">
+        <label for="dog">cachorro</label>
+         
+        <br> <br>
+
+        <input type="radio" name="animal" value="gato" id="cat">
+        <label for="cat">Gato</label>
+
+        <br> <br>
+        
+        <input type="radio" name="animal" value="Passaro" id="bird">
+        <label for="bird">Passaro</label> 
+        <br> <br>
+
+    <hr>
+        <h2>Listas de coisas</h2>
+
+        <!-- USO DO INPUT CHECKBOX -->
+
+        <input type="checkbox" id="item1" name="item 1" value="tv">
+        <label for="item1">TV</label>
+        
+        <br> <br>
+
+        
+        <input type="checkbox" id="item2" name="item 2" value="Mesa">
+        <label for="item2">Mesa</label>
+
+        <br><br>
+
+        
+        <input type="checkbox" id="item3" name="item 3" value="Toalha">
+        <label for="item3">Toalha</label>
+    <hr>
+        <h2>Escolha Uma Cor:</h2>
+        
+        <select name="cores">
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="Vermelho">Vermelho</option>
+            <option value="Verde">Verde</option>
+            <option value="Azul">Azul</option>
+            <option value="Amarelo">Amarelo</option>
+            <option value="Cinza">Cinza</option>  
+        </select>
+
+        <br> <br>
+
+        <h2>Digite uma mensagem</h2>
+
+        <textarea required placeholder="Digite sua mensagem" rows="15" cols=50></textarea>
+        <input type="submit" value="Enviar Formulário"> 
+        
+
+     </form>
+
+     <button>Clique aqui</button>
+     <!-- LEGENDAS DAS TAGS ULTILIZADAS -->
+     <!-- "form" ultilizada para iniciar formulários
+     "input" usado dar receber um dado do usuario tendo diferentes tipos/"id" indentificador do campo
+     "placeholder" contem dentro do input (tipo uma marca d'agua) explica o que o usuario deve fazer
+     "label" é uma legenda para o tipo de input/"for" ultilizada relacionar o  campo com "id" com a legenda
+     "required" obriga o usuario a preencer o campo
+     "name" nome do campo(deve ser sempre igual para todos os campos radio)
+     "value" nome que aparece para o usuario e oque vai ser enviado pelo formulario
+     "select" dava muitas escolhas ao usuario em forma de caixa
+     "option" é contida em select que tem a função de dar opções ao usuario/ sempre a option deve estar vazia 
+     "disabled" desabilita o campo 
+     "select" escolhida automaticamente pelo sistema
+     "textarea" area de texto maior contido em textarea, "rows" numéro de linhas e "cols" numéro de colunas.
+     "button" cria uma botão.   -->
+
+  <a href="Página_inicial.html">Click aqui para voltar a pagina principal</a>
+</body>
+</html>
