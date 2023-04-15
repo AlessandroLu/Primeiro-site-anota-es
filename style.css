@@ -1,0 +1,23 @@
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    font-size: 60px;  
+    color: black;
+    background-color: lightgrey
+
+}
+
+h2{
+    color: black;
+
+}
+ 
+
+
+
+*{
+    margin: 0; padding: 0; outline: none;
+
+}
